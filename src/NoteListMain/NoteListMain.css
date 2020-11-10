@@ -1,0 +1,43 @@
+
+.NoteListMain ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+h2.NoteListMain_folder-name {
+    font-size: 3em;
+    color: #cccccc;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.NoteListMain__button-container {
+  max-width: 100px;
+  margin: 0 150px;
+}
+
+.NoteListMain__add-note-button {
+  margin: 0 auto;
+  border-radius: 30px 60px;
+  text-align: center;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  transition: 0.48s;
+}
+.NoteListMain__add-note-button:hover {
+  background-color: #00c5d9;
+  color: white;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+  border-radius: 80px 40px;
+
+}
+
+hr {
+    margin-left: 0;
+    margin-right: 40px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
